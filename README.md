@@ -1,10 +1,10 @@
 # Workout-Tracker
 
-Deployed application link: 
+Heroku Deployed Application Link: 
 
 https://safe-ocean-94082.herokuapp.com/?id=5ea1e4fe539da40017aef952
 
-github application link:
+Github Application Link:
 
 https://github.com/jguerra21/workout-tracker
 
