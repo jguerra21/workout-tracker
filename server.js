@@ -1,9 +1,10 @@
+//used morgan logger/express/mongoose
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 app.use(morgan("dev"));
 
@@ -18,7 +19,7 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false,
 });
-
+//required apiRpoutes
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
