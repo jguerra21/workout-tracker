@@ -24,6 +24,6 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 ![](/images/screenshot5.jpeg)
 
-## Final app Giphy Preview
+## Final App Preview
 
 ![](/images/giphy.gif)
